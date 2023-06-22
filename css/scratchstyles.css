@@ -1,0 +1,77 @@
+.common {
+    position: absolute;
+}
+body {
+    background-size: cover;
+    background: no-repeat center center;
+    background-image: linear-gradient(white, lightgrey);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightside {
+    top: 85px; 
+    right: 1px;
+    width: 45%;
+    border-left: 1px;
+    margin-top: 8rem;
+}
+.leftside {
+    top: 85px;
+    width: 45%;
+    left: 1px;    
+    margin-top: 8rem;
+    border-right: solid 1px lightgrey;
+}  
+.header {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    background: no-repeat center center;
+    background-size: cover;
+    border-bottom: solid 1px lightgray;
+    background-position: top;
+    z-index: 2;
+}
+.footer {
+    padding-top: 25rem;
+    bottom: 1px;
+    height: 100px;
+}
+
+.subheader {
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+} 
+
+a {color: darkslategray;
+text-decoration: none;
+}
+
+a:visited {color: darkslategray;}
+
+.headerfont {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: darkslategrey;
+}
+.headings {
+    font-weight: bold;
+    font-size: 18px;
+    color: darkslategrey;
+}
+.quote {
+    font-style: italic;
+    font-size: 12px;
+    color: grey;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
